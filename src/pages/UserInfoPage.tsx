@@ -61,7 +61,7 @@ const UserInfoPage = () => {
         <i className="fa-solid fa-backward text-3xl"></i>
       </button>
 
-      <h1 className="text-center text-5xl text-[#077A7D] uppercase font-medium pb-8">
+      <h1 className="text-center text-5xl text-[#077A7D] uppercase font-medium pb-8 sm:pt-12 pt-16 md:pt-0 ">
         {user.name}
       </h1>
       <div className="flex items-center text-center flex-col gap-2 pb-6">
