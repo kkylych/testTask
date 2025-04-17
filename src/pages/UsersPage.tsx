@@ -60,7 +60,7 @@ const UsersPage = () => {
           placeholder="Search..."
           onChange={handleSearch}
           value={search}
-          className="border border-[#06202B] px-3 py-3 rounded-sm shadow-sm w-1/3 my-10 hover:scale-102 transition-transform duration-200"
+          className="border border-[#06202B] px-3 py-3 rounded-sm shadow-sm w-[100%] md:w-1/3 my-10 hover:scale-102 transition-transform duration-200"
         />
       </div>
       {loading ? (
